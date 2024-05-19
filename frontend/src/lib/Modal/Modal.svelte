@@ -2,7 +2,7 @@
     import { createEventDispatcher, onDestroy, onMount } from "svelte";
 
     import { page } from "$app/stores";
-    import { portal } from "svelte-portal/src/Portal.svelte";
+    import { portal } from "svelte-portal";
     import Icon from "@iconify/svelte";
 
     import { api } from "$lib/api";
@@ -126,7 +126,7 @@
             </table>
         </section>
     {/if}
-    
+
     <section id="themes">
         <h2>Themes</h2>
         <ThemeSwitcher bind:settings on:updateEditor={handleUpdateEditor} {showHelp} />
