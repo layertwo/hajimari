@@ -5,10 +5,10 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
-	"github.com/toboshii/hajimari/internal/config"
-	"github.com/toboshii/hajimari/internal/hajimari/customapps"
-	"github.com/toboshii/hajimari/internal/models"
-	"github.com/toboshii/hajimari/internal/services"
+	"github.com/layertwo/hajimari/internal/config"
+	"github.com/layertwo/hajimari/internal/hajimari/customapps"
+	"github.com/layertwo/hajimari/internal/models"
+	"github.com/layertwo/hajimari/internal/services"
 )
 
 type appResource struct {

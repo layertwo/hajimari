@@ -43,7 +43,7 @@
         <a
           target="_blank"
           rel="external noopener noreferrer"
-          href="https://github.com/toboshii/hajimari/issues/new/choose">GitHub</a
+          href="https://github.com/layertwo/hajimari/issues/new/choose">GitHub</a
         >. Thanks!
       </p>
     {/if}

@@ -1,4 +1,4 @@
-module github.com/toboshii/hajimari
+module github.com/layertwo/hajimari
 
 go 1.22.0
 

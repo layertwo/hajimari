@@ -10,9 +10,9 @@ import (
 	"github.com/go-chi/cors"
 	"github.com/go-chi/render"
 	"github.com/spf13/viper"
-	"github.com/toboshii/hajimari/internal/log"
-	"github.com/toboshii/hajimari/internal/services"
-	"github.com/toboshii/hajimari/internal/stores"
+	"github.com/layertwo/hajimari/internal/log"
+	"github.com/layertwo/hajimari/internal/services"
+	"github.com/layertwo/hajimari/internal/stores"
 )
 
 var (

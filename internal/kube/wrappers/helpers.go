@@ -1,7 +1,7 @@
 package wrappers
 
 import (
-	"github.com/toboshii/hajimari/internal/log"
+	"github.com/layertwo/hajimari/internal/log"
 )
 
 var (

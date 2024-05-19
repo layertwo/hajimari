@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
-	"github.com/toboshii/hajimari/internal/config"
-	"github.com/toboshii/hajimari/internal/models"
+	"github.com/layertwo/hajimari/internal/config"
+	"github.com/layertwo/hajimari/internal/models"
 )
 
 type bookmarkResource struct{}

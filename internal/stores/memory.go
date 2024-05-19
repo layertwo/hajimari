@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	gonanoid "github.com/matoous/go-nanoid/v2"
-	"github.com/toboshii/hajimari/internal/models"
-	"github.com/toboshii/hajimari/internal/util/pointer"
+	"github.com/layertwo/hajimari/internal/models"
+	"github.com/layertwo/hajimari/internal/util/pointer"
 )
 
 var startpages = []*models.Startpage{

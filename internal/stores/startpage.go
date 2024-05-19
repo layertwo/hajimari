@@ -1,7 +1,7 @@
 package stores
 
 import (
-	"github.com/toboshii/hajimari/internal/models"
+	"github.com/layertwo/hajimari/internal/models"
 )
 
 type StartpageStore interface {
