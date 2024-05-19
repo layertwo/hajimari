@@ -24,20 +24,13 @@ COPY . .
 
 COPY --from=build-frontend /build/frontend/build /build/frontend/build
 
-RUN \
-    export GOOS=$(echo ${TARGETPLATFORM} | cut -d / -f1) \
-    && \
-    export GOARCH=$(echo ${TARGETPLATFORM} | cut -d / -f2) \
-    && \
-    GOARM=$(echo ${TARGETPLATFORM} | cut -d / -f3); export GOARM=${GOARM:1} \
-    && \
-    go mod download \
+RUN go mod download \
     && \
     go build -a -tags netgo -ldflags '-w -extldflags "-static"' -o hajimari /build/cmd/hajimari/main.go \
     && \
     chmod +x hajimari
 
-FROM docker.io/alpine:3.17
+FROM docker.io/alpine:3.19
 
 RUN \
     apk add --no-cache \
