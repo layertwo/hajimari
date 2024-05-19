@@ -7,7 +7,7 @@ on:
       - published
 
 env:
-  REGISTRY_IMAGE: ghcr.io/toboshii/hajimari
+  REGISTRY_IMAGE: ghcr.io/layertwo/hajimari
 
 jobs:
   build:

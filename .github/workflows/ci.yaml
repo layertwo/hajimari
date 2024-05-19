@@ -2,13 +2,13 @@ name: ci
 
 on:
   push:
-    branches: 
+    branches:
       - main
     paths-ignore:
       - "charts/hajimari/**"
 
 env:
-  REGISTRY_IMAGE: ghcr.io/toboshii/hajimari
+  REGISTRY_IMAGE: ghcr.io/layertwo/hajimari
 
 jobs:
   build:
