@@ -5,11 +5,15 @@ on:
       - main
     paths-ignore:
       - "charts/hajimari/**"
+      - ".github/workflows/release-chart.yaml"
+      - ".github/workflows/lint-test-chart.yaml"
   pull_request:
     branches:
       - main
     paths-ignore:
       - "charts/hajimari/**"
+      - ".github/workflows/release-chart.yaml"
+      - ".github/workflows/lint-test-chart.yaml"
 
 
 env:
