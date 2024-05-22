@@ -30,7 +30,7 @@ RUN go mod download \
     && \
     chmod +x hajimari
 
-FROM docker.io/alpine:3.19
+FROM docker.io/alpine:3.20
 
 RUN \
     apk add --no-cache \
