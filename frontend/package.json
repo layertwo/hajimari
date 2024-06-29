@@ -20,7 +20,7 @@
   "devDependencies": {
     "@iconify/svelte": "4.0.2",
     "@sveltejs/adapter-static": "3.0.1",
-    "@sveltejs/kit": "2.5.9",
+    "@sveltejs/kit": "2.5.18",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/codemirror": "5.60.15",
     "@types/js-yaml": "4.0.9",
